@@ -21,6 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 img {
@@ -29,16 +30,17 @@ img {
   margin-right: .5rem;
 }
 
-nav a {
+nav a, nav a:visited {
   text-decoration: none;
   color: #0074d9;
+  padding: .75em 1em .6em;
 }
 
 li {
   list-style-type: none;
 }
 
-nav {
+ul {
   display: flex;
 }
 
