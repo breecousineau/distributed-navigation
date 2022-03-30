@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.125rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 2rem;
+  order: -1;
+  margin-right: .5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+}
+
+p {
+  margin: 0 auto;
+}
