@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-size: 1.125rem;
   font-family: sans-serif;
   line-height: 1.5;
   background-color: #fff;
@@ -16,6 +15,10 @@ body {
   margin: 0;
 }
 
+header h1 {
+  font-size: 1.125rem;
+}
+
 header {
   background-color: #e2e2e2;
   display: flex;
@@ -24,7 +27,7 @@ header {
   padding: 1rem;
 }
 
-img {
+header img {
   width: 2rem;
   order: -1;
   margin-right: .5rem;
@@ -32,18 +35,22 @@ img {
 
 nav a, nav a:visited {
   text-decoration: none;
-  color: #0074d9;
   padding: .75em 1em .6em;
+  color: #0074d9;
+}
+
+nav a:hover {
+  color: #fff;
 }
 
 li {
   list-style-type: none;
 }
 
-ul {
+nav ul {
   display: flex;
 }
 
-p {
+header p {
   margin: 0 auto;
 }
